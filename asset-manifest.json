@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/QCRX-Task/static/css/main.f855e6bc.css",
-    "main.js": "/QCRX-Task/static/js/main.e379aefd.js",
+    "main.css": "/QCRX-Task/static/css/main.8a00475b.css",
+    "main.js": "/QCRX-Task/static/js/main.b4578fdc.js",
     "static/js/453.e52305e5.chunk.js": "/QCRX-Task/static/js/453.e52305e5.chunk.js",
-    "static/media/logo.svg": "/QCRX-Task/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/full logo.png": "/QCRX-Task/static/media/full logo.db73a426ad6a5172e46a.png",
+    "static/media/mobile logo.png": "/QCRX-Task/static/media/mobile logo.a861a8ddd7009f0c475f.png",
     "index.html": "/QCRX-Task/index.html",
-    "main.f855e6bc.css.map": "/QCRX-Task/static/css/main.f855e6bc.css.map",
-    "main.e379aefd.js.map": "/QCRX-Task/static/js/main.e379aefd.js.map",
+    "main.8a00475b.css.map": "/QCRX-Task/static/css/main.8a00475b.css.map",
+    "main.b4578fdc.js.map": "/QCRX-Task/static/js/main.b4578fdc.js.map",
     "453.e52305e5.chunk.js.map": "/QCRX-Task/static/js/453.e52305e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.e379aefd.js"
+    "static/css/main.8a00475b.css",
+    "static/js/main.b4578fdc.js"
   ]
 }
