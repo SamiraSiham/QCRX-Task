@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/QCRX-Task/static/css/main.8a00475b.css",
-    "main.js": "/QCRX-Task/static/js/main.b4578fdc.js",
+    "main.js": "/QCRX-Task/static/js/main.a9cfa7de.js",
     "static/js/453.e52305e5.chunk.js": "/QCRX-Task/static/js/453.e52305e5.chunk.js",
     "static/media/full logo.png": "/QCRX-Task/static/media/full logo.db73a426ad6a5172e46a.png",
     "static/media/mobile logo.png": "/QCRX-Task/static/media/mobile logo.a861a8ddd7009f0c475f.png",
     "index.html": "/QCRX-Task/index.html",
     "main.8a00475b.css.map": "/QCRX-Task/static/css/main.8a00475b.css.map",
-    "main.b4578fdc.js.map": "/QCRX-Task/static/js/main.b4578fdc.js.map",
+    "main.a9cfa7de.js.map": "/QCRX-Task/static/js/main.a9cfa7de.js.map",
     "453.e52305e5.chunk.js.map": "/QCRX-Task/static/js/453.e52305e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a00475b.css",
-    "static/js/main.b4578fdc.js"
+    "static/js/main.a9cfa7de.js"
   ]
 }
