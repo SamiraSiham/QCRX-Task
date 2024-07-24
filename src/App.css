@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes scrollHero {
+  0%,
+  16.67% {
+    transform: translateX(0%);
+  }
+  33.33%,
+  50% {
+    transform: translateX(-100%);
+  }
+  66.67%,
+  100% {
+    transform: translateX(0%);
   }
 }
+@keyframes scaleImage {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  30%,
+  50% {
+    transform: scale(1.1);
+  }
+  /* 33.33%, 50%, 100% {
+      transform: scale(1.2);
+    } */
+}
+#pic1 {
+  animation: scaleImage 4s infinite;
+}
+#pic3 {
+  animation: scaleImage 4s infinite;
+}
+#pic4 {
+  animation: scaleImage 4s infinite;
+}
+#pic6 {
+  animation: scaleImage 4s infinite;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#container {
+  width: 90%;
+  /* border: 5px solid black; */
+  overflow: hidden;
+}
+#carousel-hero {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  animation: scrollHero 12s linear infinite;
+  /* width: 100%; */
+}
+
+#carousel-hero > div {
+  min-width: 33%;
+  display: flex;
+  justify-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  transition: transform 0.5s ease;
+}
+
+#carousel-hero > div > img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#carousel-hero::after {
+  content: "";
+  display: flex;
+}
+
+#carousel-hero::after > div {
+  min-width: 100%;
+}
+
+#standards-section1 {
+  background-image: url("./images/standards-bg.png");
+  background-color: rgb(6, 28, 65);
+  background-blend-mode: overlay;
+  /* rgba(25, 72, 148, 1) */
+}
+.section1-content {
   color: white;
+  font-family: "EB Garamond", serif;
+  z-index: 2;
+  opacity: 1;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer {
+  font-family: "EB Garamond", serif;
 }
