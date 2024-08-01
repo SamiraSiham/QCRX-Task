@@ -2,7 +2,7 @@ import React from 'react'
 // import '../../js/faq.js'
 import '../../css/faq.css'
 import plus from '../../icons/plus.svg'
-import minus from '../../icons/minus.svg'
+// import minus from '../../icons/minus.svg'
 import { useEffect } from 'react'
 const Faq = () => {
     useEffect(() => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImg from '../../images/standards-bg.png'
+// import bgImg from '../../images/standards-bg.png'
 import img from '../../images/standards.png'
 import arrow from '../../icons/arrow-blue.svg'
 const Standards = () => {

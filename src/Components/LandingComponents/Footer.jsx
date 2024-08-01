@@ -1,6 +1,6 @@
 import React from 'react'
 import arrow from '../../icons/hero-arrow-icon.svg'
-import arrowBlack from '../../icons/arrow-black.svg'
+// import arrowBlack from '../../icons/arrow-black.svg'
 import logo from '../../images/full logo.png'
 import facebook from '../../icons/facebook.svg'
 import instagram from '../../icons/instagram.svg'

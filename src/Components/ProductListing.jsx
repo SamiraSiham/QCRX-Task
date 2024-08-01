@@ -4,9 +4,9 @@ import Sidebar from './product listing/Sidebar'
 import Content from './product listing/Content'
 import Footer from './LandingComponents/Footer'
 import ViewCatalog from './product listing/ViewCatalog'
-import { useState } from 'react'
+// import { useState } from 'react'
 const ProductListing = () => {
-    const [sidebarToggle, setSidebarToggle] = useState(false)
+    // const [sidebarToggle, setSidebarToggle] = useState(false)
     return (
         <>
             <Nav />
