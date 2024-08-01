@@ -1,0 +1,8 @@
+#catalog-bg{
+    background-image: url("../images/standards-bg.png");
+    background-color: rgba(25, 72, 148, 1);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { 
+    font-family: "Georgia"; 
+    src: url('../fonts/Georgia.ttf'); 
+}
+
+@layer utilities{
+    .paused{
+        animation-play-state: paused;
+    }
+}

@@ -1,0 +1,30 @@
+#faq-section{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.answer{
+    margin-top: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.5s ease-in
+}
+
+.faq.active .answer{
+    max-height: fit-content;
+    transition: all 1s ease-in-out;
+}
+
+.faq.active .icon-btn{
+    /* content: url('../icons/minus.svg') */
+    content: url('../icons/minus.svg')
+}
