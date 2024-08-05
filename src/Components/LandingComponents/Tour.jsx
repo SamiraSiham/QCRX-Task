@@ -15,7 +15,7 @@ const Tour = () => {
   return (
     <div id='tour-section' className='flex flex-col items-center md:mb-[30vh] max-md:h-[100vh]'>
 
-      <h1 id='title' className='text-3xl my-10 font-medium w-1/2 max-md:text-center md:w-1/5 p-0'>A pictures Worth a Thousand Words</h1>
+      <h1 className='text-3xl my-10 w-1/2 text-center md:w-1/5 p-0 font-Georgia font-[48px] '>A pictures Worth a Thousand Words</h1>
 
       <div className='flex flex-row gap-3'>
         <img src={ellipse} alt="" />

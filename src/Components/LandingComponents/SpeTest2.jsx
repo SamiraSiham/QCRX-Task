@@ -12,7 +12,7 @@ const SpeTest2 = () => {
         <div className='font-[Manrope] mt-20 mb-10 w-full bg-white md:mt-10 md:w-full'>
             <div className='mt-6 md:w-full flex flex-col md:flex-row'>
                 {/* first part */}
-                <div className="flex flex-col items-center md:items-start px-12 py-20 w-full md:w-[50%] text-black bg-white border border-black border-solid md:px-5">
+                <div className="flex flex-col items-center md:items-start px-12 py-20 w-full md:w-[50%] text-black bg-white md:px-5">
                     <div className="mt-24 text-5xl leading-10 max-md:mt-10 max-md:text-4xl max-md:leading-10">
                         We specialize in medications for
                     </div>
@@ -21,10 +21,10 @@ const SpeTest2 = () => {
                         amet. Sit egestas mi platea nisl est.
                     </div>
                     <div className="flex flex-col md:flex-row justify-center gap-3 mt-10 text-sm font-medium text-white">
-                        <button className="justify-center px-5 py-4 bg-blue-900 rounded-3xl border border-black border-solid">
+                        <button className="justify-center px-5 py-4 bg-blue-900 rounded-3xl">
                             Register as Provider
                         </button>
-                        <button className="justify-center px-5 py-4 bg-cyan-500 rounded-3xl border border-black border-solid shadow-sm ">
+                        <button className="justify-center px-5 py-4 bg-cyan-500 rounded-3xl shadow-sm ">
                             Register as Patient
                         </button>
                     </div>

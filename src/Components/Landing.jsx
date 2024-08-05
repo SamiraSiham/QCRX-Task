@@ -13,12 +13,14 @@ import Faq from './LandingComponents/Faq'
 import Accreditation from './LandingComponents/Accreditation'
 import Footer from './LandingComponents/Footer'
 import ViewCatalog from './LandingComponents/ViewCatalog'
+import Video from './LandingComponents/Video'
 const Landing = () => {
   return (
     <>
     <Nav/>
     <Hero/>
     <WhyChooseUs/>
+    
     <SpeTest2/>
     <Tour/>
     <Services/>
@@ -29,6 +31,7 @@ const Landing = () => {
     <Accreditation/>
     <ViewCatalog/>
     <Footer/>
+    {/* <Video/> */}
     </>
   )
 }

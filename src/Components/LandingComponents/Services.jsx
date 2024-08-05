@@ -1,6 +1,5 @@
 import React from 'react'
 import arrow from '../../icons/hero-arrow-icon.svg'
-import '../../css/services.css'
 import image from '../../images/services/images.png'
 import c1 from '../../images/services/customer1.png'
 import c2 from '../../images/services/customer2.png'
@@ -13,7 +12,7 @@ import c8 from '../../images/services/customer8.png'
 const Services = () => {
     return (
         <div className='flex flex-col gap-3 items-center justify-center' id='services-section'>
-            <h1 id='services-title' className='text-3xl'>
+            <h1 className='text-3xl'>
                 White Label Services
             </h1>
             <div className='my-5 w-1/2 max-md:text-center md:w-[80%] text-justify p-0'>

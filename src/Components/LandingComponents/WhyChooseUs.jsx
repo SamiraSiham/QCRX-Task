@@ -1,6 +1,7 @@
 import React from 'react'
 import arrow from '../../icons/arrow-black.svg';
 import photo from '../../images/whyChoose.jpg'
+import Video from './Video';
 const WhyChooseUs = () => {
     return (
         <div className='font-[Manrope]'>
@@ -9,7 +10,7 @@ const WhyChooseUs = () => {
                     Why Choose QCRx?
                 </div>
                 <div className="shrink-0 h-px bg-cyan-500 w-[114px]" />
-                <div className="mt-7 text-5xl leading-10 text-black max-md:max-w-full max-md:text-4xl max-md:leading-10">
+                <div className="font-Georgia font-[48px] mt-7 text-5xl leading-10 text-black max-md:max-w-full max-md:text-4xl max-md:leading-10">
                     Quality and Customer Service are the most important elements of a
                     pharmacy.
                 </div>
@@ -72,9 +73,11 @@ const WhyChooseUs = () => {
                     </div>
                 </div>
 
-                <div className="mt-24 bg-blue-900 rounded-xl max-md:mt-10 max-md:max-w-full  flex flex-col md:flex-row">
-                    <div className="flex max-md:flex-col md:flex-row items-center w-1/2 p-10">
-                        <div className="flex flex-col gap-4 max-md:w-[90%] text-white  p-5 justify-center">
+                <Video/>
+
+                <div className="mt-12 bg-blue-900 rounded-xl max-md:mt-8 max-md:w-full flex flex-col md:flex-row">
+                    <div className="flex max-md:flex-col md:flex-row items-center md:w-1/2 max-md:w-full p-10">
+                        <div className="flex flex-col gap-4 max-md:w-[90%] text-white  p-5 justify-center max-md:text-center">
                             <div className="md:text-[35px] max-md:w-full w-full font-Georgia">
                                 Innovative technology for compounding excellence.
                             </div>
@@ -91,7 +94,7 @@ const WhyChooseUs = () => {
                                 proin mauris ultrices porttitor quam lacus mi. Condimentum
                                 cursus condimentum laoreet dignissim amet vestibulum.
                             </div>
-                            <button className="flex gap-4 self-start px-8 py-2 text-sm font-medium text-blue-900 bg-white rounded-3xl max-md:px-5 max-md:mt-10">
+                            <button className="flex gap-4 md:self-start max-md:self-center px-8 py-2 text-sm font-medium text-blue-900 bg-white rounded-3xl max-md:px-5 max-md:mt-10">
                                 <span className='text-[14pt]'>More About Us</span>
                                 <img src={arrow} alt="" />
                             </button>
@@ -100,6 +103,7 @@ const WhyChooseUs = () => {
                     <div className="flex flex-col w-1/2 max-md:ml-0 max-md:w-full">
                         <img
                             src={photo}
+                            alt=""
                             className="h-full w-full max-md:max-w-full md:rounded-r-xl"
                         />
                     </div>

@@ -50,7 +50,7 @@ const products = [
     },
     {
         id : 5,
-        src: '../images/product 5.png',
+        // src: '../images/product 5.png',
         src: pr5,
         title: 'Acyclovir/Lidocaine/Lysine HCl',
         type: 'Lip Balm',

@@ -6,7 +6,7 @@ import plus from '../../icons/plus.svg'
 import { useEffect } from 'react'
 const Faq = () => {
     useEffect(() => {
-        console.log("mounted")
+        // console.log("mounted")
         const faqs = document.querySelectorAll(".faq");
         faqs.forEach((faq) => {
             faq.addEventListener("click", () => {
@@ -14,7 +14,7 @@ const Faq = () => {
                 console.log("click");
             });
         });
-        console.log("click end")
+        // console.log("click end")
     }, [])
 
     return (
