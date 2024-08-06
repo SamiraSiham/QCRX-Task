@@ -34,7 +34,7 @@ const SpeTest2 = () => {
                     <div id='carousel-spe' className="flex flex-col md:flex-row gap-20 ps-2 w-[100%] md:w-[80%] overflow-hidden">
                         <div id='carousel-track-spe' className=''>
                             {/* image 1 */}
-                            <div className="card flex relative flex-col self-stretch px-6 pt-20 pb-12 my-auto md:text-2xl font-medium text-blue-900 max-md:px-0 max-md:mt-0">
+                            <div className="card flex relative flex-col px-6 pt-20 pb-12 my-auto md:text-2xl font-medium text-blue-900 max-md:px-0 max-md:mt-0">
                                 <img
                                     src={img1}
                                     alt=""
