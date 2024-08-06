@@ -12,10 +12,10 @@ import c8 from '../../images/services/customer8.png'
 const Services = () => {
     return (
         <div className='flex flex-col gap-3 items-center justify-center' id='services-section'>
-            <h1 className='text-3xl'>
+            <h1 className='text-3xl font-Georgia '>
                 White Label Services
             </h1>
-            <div className='my-5 w-1/2 max-md:text-center md:w-[80%] text-justify p-0'>
+            <div className='my-5 w-1/2 max-md:text-center md:w-[70%] text-center p-0'>
                 Our expert team can help you develop your own line of Beverly Hills Cosmetics or any other product that you can imagine.
                 Contact us today to schedule a consult with of our branding experts to help make your vision a reality.
             </div>
@@ -40,7 +40,6 @@ const Services = () => {
                         <img className=' size-1/2 md:max-lg:size-1/4' src={c7} alt="" />
                         <img className=' size-1/2 md:max-lg:size-1/4' src={c8} alt="" />
                     </div>
-
                 </div>
             </div>
             <div className='flex flex-row md:justify-around my-10'>

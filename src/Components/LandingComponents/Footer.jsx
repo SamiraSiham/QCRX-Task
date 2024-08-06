@@ -27,9 +27,9 @@ const Footer = () => {
                 </div>
                 {/* section 2 */}
                 <div className="flex flex-row max-md:flex-wrap md:gap-10 max-md:gap-5 justify-center max-md:items-center md:w-2/3 max-md:text-xs max-md:w-[90%]">
-                    <div className='flex flex-col md:w-1/4 max-md:w-full items-center'>
+                    <div className='flex flex-col md:w-1/4 max-md:w-full'>
                         <div className='text-2xl font-medium'>
-                            <p className='max-md:text-center md:text-left'>Pages</p>
+                            <p className='text-left'>Pages</p>
                         </div>
                         <div className='text-lg flex flex-col gap-3'>
                             <p className='max-md:text-center md:text-left'>Home</p>
@@ -41,7 +41,7 @@ const Footer = () => {
                             <p className='max-md:text-center md:text-left'>Contact Us</p>
                         </div>
                     </div>
-                    <div className='flex flex-col w-1/4 max-md:w-full items-center'>
+                    <div className='flex flex-col w-1/4 max-md:w-full'>
                         <div className='text-2xl font-medium'>
                             <p>Catalog</p>
                         </div>
@@ -54,7 +54,7 @@ const Footer = () => {
                             <p className='max-md:text-center md:text-left'>Dermatology</p>
                         </div>
                     </div>
-                    <div className='flex flex-col md:w-1/4 max-md:w-full items-center'>
+                    <div className='flex flex-col md:w-1/4 max-md:w-full'>
                         <div className='text-2xl font-medium'>
                             <p>Resources</p>
                         </div>

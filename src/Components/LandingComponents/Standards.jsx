@@ -8,7 +8,7 @@ const Standards = () => {
             <div className='mx-auto flex flex-col md:flex-row gap-0 md:gap-0 w-[90%] md:w-[95%] max-md:items-center justify-center md:justify-center bg-[#194894] md:m-10 rounded-xl'>
 
                 <div className='w-full md:w-1/2 md:rounded-s-xl max-md:rounded-t-xl bg-cover bg-center flex flex-col text-center md:text-justify md:p-9 md:pb-12 max-md:p-3 gap-10' id='standards-section1'>
-                    <h1 className='text-4xl section1-content'>
+                    <h1 className='text-4xl section1-content font-Georgia'>
                         Setting New Standards: Elevating Compounding Quality
                     </h1>
                     <div className='flex flex-col justify-start section1-content'>

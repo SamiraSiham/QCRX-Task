@@ -9,8 +9,8 @@ const About = () => {
     return (
         <>
             <div className='flex flex-col gap-3 items-center justify-center mb-10 '>
-                <h1 id='title' className='text-3xl'>
-                    White Label Services
+                <h1 className='text-3xl font-Georgia'>
+                    What people are saying about us 
                 </h1>
                 <div className='my-5 w-1/2 text-center md:w-[80%] p-0'>
                     Nec purus adipiscing pellentesque ultrices in viverra amet. Sit egestas mi platea nisl est.
