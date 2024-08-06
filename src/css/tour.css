@@ -13,7 +13,7 @@
 .card-container-stack {
     margin: 0;
     position: relative;
-    width: 90vw;
+    width: 30vw;
     height: 90vh;
     perspective: 1000px;
     transition: all 1s ease-in-out;
@@ -24,7 +24,7 @@
 
 .card-stack {
     position: absolute;
-    width: 100%;
+    width: 85%;
     height: 100%;
     border-radius: 10px;
     display: flex;
